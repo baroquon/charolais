@@ -1,0 +1,239 @@
+body {
+color:#52580a;
+background-color:#c1c590;
+}
+a{
+color:#fff;
+}
+span.error{
+color:#fff;
+}
+/*----------------------headers-p-a-style------------------------------*/
+h1{color:#fff;padding:25px 0 25px 0;margin:0px;font-size:22px;font-weight:normal;}
+h1 a{color:#fff;margin:0px;font-weight:normal;text-decoration:none;}
+
+h2{color:#fff;padding:25px 0 25px 0;margin:0px;font-size:18px;font-weight:normal;}
+h2 a{color:#fff;margin:0px;font-weight:normal;text-decoration:none;}
+
+h3{color:#fff;padding:15px 0 5px 0;margin:0px;font-size:18px;font-weight:normal;}
+h3 a{color:#fff;margin:0px;font-weight:normal;text-decoration:none;}
+
+h2.title{color:#fff;padding:25px 0 25px 0;margin:0px;font-size:18px;font-weight:normal; text-transform:capitalize;}
+h2.title a{color:#fff;margin:0px;font-weight:normal;text-decoration:none;}
+
+/*------------------logo style----------------*/
+#logo h1{
+color:#fff;font-size:60px;padding:0px;margin:0px; font-weight:normal;
+}
+#logo h1 a{
+color:#fff;font-size:60px;padding:0px;margin:0px; font-weight:normal; text-decoration:none;
+}
+.description{
+font-size:16px;
+color:#52580a;
+padding:0 0 0 60px;
+}
+
+/*--------------------------search-tabs----------*/
+.tab a.open {background: url(images/bt_open.gif) no-repeat right;color: #52580a;}
+.tab a.close {background: url(images/bt_close.gif) no-repeat right;color: #fff;}
+.tab a:hover.open {background: url(images/bt_open_a.gif) no-repeat right;color: #fff;}
+.tab a:hover.close {background: url(images/bt_close_a.gif) no-repeat right;color: #52580a;}
+
+input.search_input{
+color:#52580a;
+background-color:#d2d5a9;
+border:1px #a0a471 solid;
+}
+input.searchsubmit{
+color:#52580a;
+}
+/*------------------slider----------------------*/
+.slider_container{
+background:url(images/slider_bg_bottom.gif) no-repeat center bottom;
+}
+#main_container {
+background:url(images/container_top_bg.jpg) no-repeat center top;
+}
+
+/*----------------------top-menu----------------*/
+.ddsmoothmenu{
+background:url(images/menu_bg_left.jpg) no-repeat left;
+}
+.ddsmoothmenu ul{
+background:url(images/menu_bg_right.jpg) no-repeat right;
+}
+.ddsmoothmenu ul li.current_page_item a, .ddsmoothmenu ul li.current-cat a, .ddsmoothmenu ul li.current-cat-parent a{
+color:#fff;
+}
+
+.ddsmoothmenu ul li a{
+color:#52580a;
+}
+.ddsmoothmenu ul li a:link, .ddsmoothmenu ul li a:visited{
+color:#52580a;
+}
+.ddsmoothmenu ul li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+color:#fff;
+}
+.ddsmoothmenu ul li a:hover{
+color:#fff;
+}
+
+
+.ddsmoothmenu ul li ul{
+background-color:#c9cd9f;
+background-image:none;
+}
+.ddsmoothmenu ul li ul li a{
+color:#52580a;
+border-bottom:1px #e0e3bf solid;
+}
+/*------------------home-cotent----------------*/
+img.about_pic{
+border:1px #a6aa73 solid;
+}
+.about_block{
+background:url(images/about_block_bottom.gif) no-repeat bottom center;
+}
+/*------------------social-icons---------------*/
+a.rss{ width:24px; height:24px; float:left; display:block; padding:0 10px 0 0; background:url(images/rss.jpg) no-repeat center;}
+a.rss:hover{background:url(images/rss_a.jpg) no-repeat center;}
+
+a.delicious{ width:24px; height:24px; float:left; display:block; padding:0 10px 0 0; background:url(images/delicious.jpg) no-repeat center;}
+a.delicious:hover{background:url(images/delicious_a.jpg) no-repeat center;}
+
+a.digg{ width:24px; height:24px; float:left; display:block; padding:0 10px 0 0; background:url(images/digg.jpg) no-repeat center;}
+a.digg:hover{background:url(images/digg_a.jpg) no-repeat center;}
+
+a.reddit{ width:24px; height:24px; float:left; display:block; padding:0 10px 0 0; background:url(images/reddit.jpg) no-repeat center;}
+a.reddit:hover{background:url(images/reddit_a.jpg) no-repeat center;}
+
+a.twitter{ width:24px; height:24px; float:left; display:block; padding:0 10px 0 0; background:url(images/twitter.jpg) no-repeat center;}
+a.twitter:hover{background:url(images/twitter_a.jpg) no-repeat center;}
+
+/*--------------------post-----------------------*/
+.home_post{
+background:url(images/home_post_bg.gif) no-repeat center bottom;
+}
+.post_date{background-color:#a4aa5f;color:#fff;}
+.post_details h2 a{color:#52580a;}
+
+.post_details_archive{background:url(images/about_block_bottom.gif) no-repeat center bottom;}
+.post_details_archive h2{color:#fff;}
+.post_details_archive h2 a{color:#fff;}
+
+.page_details{background:url(images/about_block_bottom.gif) no-repeat center bottom;}
+
+.entry img{
+border:1px #a6aa73 solid;
+}
+
+/*----------------photo-thumbs-----------------*/
+.photo_thumb{
+background-color:#a4aa5f;
+}
+.photos_subcategories{
+background-color:#a4aa5f;
+}
+.photos_subcategories ul li a{
+color:#52580a;
+}
+.photos_subcategories ul li.current-cat a{
+color:#fff;
+}
+.photos_subcategories ul li a:hover{
+color:#fff;
+}
+
+/*---------------sidebar------------------------*/
+#sidebar ul li ul{
+border-top:1px #a6aa73 solid;
+}
+#sidebar ul li ul li{
+border-bottom:1px #a6aa73 solid;
+}
+#sidebar ul li ul li a{
+color:#52580a;
+}
+#sidebar ul li ul li a:hover{
+color:#fff;
+}
+
+#sidebar-page ul li ul{
+border-top:1px #a6aa73 solid;
+}
+#sidebar-page ul li ul li{
+border-bottom:1px #a6aa73 solid;
+}
+#sidebar-page ul li ul li a{
+color:#52580a;
+}
+#sidebar-page ul li ul li a:hover{
+color:#fff;
+}
+
+#sidebar-page ul li ul.sidebar_featured_photos li a{
+border:1px #a6aa73 solid;
+}
+#sidebar-page ul li ul.sidebar_featured_photos li a:hover{
+border:1px #fff solid;
+}
+
+.textwidget{
+border-bottom:1px #a6aa73 solid;
+border-top:1px #a6aa73 solid;
+}
+
+/*---------------------------form style------------------*/
+.formrow input{
+background-color:#d2d5a9;
+border:1px #a0a471 solid;
+color:#52580a;
+}
+.formrow input#submit{
+background-color:#d2d5a9;
+border:1px #a0a471 solid;
+color:#52580a;
+}
+.formrow textarea{
+color:#52580a;
+background-color:#d2d5a9;
+border:1px #a0a471 solid;
+}
+
+.commentlist li {
+border-top:1px #a6aa73 solid;
+border-bottom:1px #a6aa73 solid;
+}
+
+.avatar { 
+border: 1px solid #a6aa73;
+}
+/*-------------------------------navigation------------*/
+.alignright {
+float: right;
+background:url(images/nextentries.gif) no-repeat right;
+}
+.alignleft {
+float: left;
+background:url(images/preventries.gif) no-repeat left;
+}
+.navigation a, .navigation_photos a{
+color:#52580a;
+padding:3px 25px 3px 25px;
+}
+blockquote {
+border-bottom:1px #a6aa73 dashed;
+border-top:1px #a6aa73 dashed;
+}
+/*----------------------------footer------------------*/
+#footer {
+background:url(images/footer_bg.gif) no-repeat center top;
+}
+.right_footer ul li a{
+color:#52580a;
+}
+.right_footer ul li a:hover{
+color:#fff;
+}
